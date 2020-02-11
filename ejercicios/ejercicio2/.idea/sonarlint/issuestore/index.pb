@@ -1,0 +1,7 @@
+
+D
+src/Hexadecimal.java,c/9/c90280a1358748418677580944dbbda99b9742e5
+D
+src/TestDigitos.java,1/5/1546737a492b33c1acb736bbb012164b55c55f3f
+@
+src/Binario.java,2/d/2d261d756197065627a481271d64949668acb013

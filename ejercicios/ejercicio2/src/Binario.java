@@ -1,9 +1,20 @@
+import java.util.List;
+
 public class Binario {
+
     private String valor;  // 00111 10001 100 10001
 
-    public Binario(String valor) {
-        this.valor = valor;
+    public Binario(String valor) throws BinarioException {
+        if ( esBinario(valor) )
+            this.valor = valor;
+        else
+            throw new BinarioException();
     }
+
+    private boolean esBinario(String valor) {
+        return valor.matches("[01]+");
+    }
+
     public int devolverValorDecimal(){
         double suma = 0.0;
         StringBuilder sB = new StringBuilder(valor); //para poder acceder al reverse
@@ -14,11 +25,22 @@ public class Binario {
         }
         return (int) suma;
 
+        //return Integer.parseInt(valor, 2);
+
     }
 
     @Override
     public String toString() {
-        return valor + ": " + devolverValorDecimal();  // 01: 2  011: 3
+        return "Binario: " + valor +  ", Decimal: " + devolverValorDecimal();  // 01: 2  011: 3
+    }
+
+    public static int obtenerSumaDecimalListaBinarios(
+            List<Binario> lista ) {
+        int suma = 0;
+        for ( Binario b: lista ) {
+            suma += b.devolverValorDecimal();
+        }
+        return suma;
     }
 }
 
