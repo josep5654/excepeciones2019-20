@@ -22,7 +22,7 @@ public class TestDigitosFichero {
         //cierre automático del Scanner
         List<Hexadecimal> listaHexadecimal = new ArrayList<>();
         try (Scanner sc = new Scanner(new File(
-                "ficheros/hexadecimal.tx"));)
+                "ficheros/hexadecimal.txt"));)
         {
 
             while (sc.hasNextLine()) {
@@ -41,6 +41,9 @@ public class TestDigitosFichero {
             System.out.println(e.getMessage());
         }
 
-        System.out.println(listaHexadecimal);
+        //System.out.println(listaHexadecimal);
+        System.out.printf("La suma de todos los valores hexadecimales, " +
+                "en decimal vale %d%n", Hexadecimal.obtenerSumaDecimalListaHexadecimales(
+                        listaHexadecimal));
     }
 }

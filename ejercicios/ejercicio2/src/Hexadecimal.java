@@ -14,7 +14,7 @@ public class Hexadecimal {
         return valor.matches("[0-9abcdefABCDEF]+");
     }
 
-    public int devolverValorDecimal(){
+    public long devolverValorDecimal(){
        /* double suma = 0.0;
         StringBuilder sB = new StringBuilder(valor.toLowerCase()); //para poder acceder al reverse
         sB.reverse();  //StringBuilder es mutable, cambia
@@ -49,7 +49,7 @@ public class Hexadecimal {
             }
         }
         return (int) suma; */
-        return Integer.parseInt(valor, 16);
+        return Long.parseLong(valor, 16);
 
     }
 
@@ -60,9 +60,9 @@ public class Hexadecimal {
                 valor, devolverValorDecimal());
     }
 
-    public static int obtenerSumaDecimalListaHexadecimales(
+    public static long obtenerSumaDecimalListaHexadecimales(
             List<Hexadecimal> lista ) {
-        int suma = 0;
+        long suma = 0;
         for ( Hexadecimal h: lista ) {
             suma += h.devolverValorDecimal();
         }

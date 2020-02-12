@@ -38,6 +38,8 @@ public class TestDigitos {
         System.out.printf("La suma de los hexadecimales vale %d%n",
                 Hexadecimal.obtenerSumaDecimalListaHexadecimales(listaHexadecimal));
 
+        Binario binario = Binario.convertirDecimalABinario(10);
+        System.out.println(binario);
         System.out.println("Fin de programa");
     }
 }

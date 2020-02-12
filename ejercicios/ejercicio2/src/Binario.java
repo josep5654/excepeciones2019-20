@@ -42,6 +42,27 @@ public class Binario {
         }
         return suma;
     }
+    public static Binario convertirDecimalABinario(int valor) {
+        Binario binario = null;
+        StringBuilder sBuilder = new StringBuilder();
+        int cociente = valor / 2 ;
+        int resto    = valor % 2 ;
+        sBuilder.append(resto);
+        while ( cociente > 1 ){
+            resto    = cociente % 2;
+            sBuilder.append(resto);
+            cociente = cociente / 2;
+        }
+        if (valor > 2)
+            sBuilder.append(1);
+        sBuilder.reverse();
+        try {
+            binario = new Binario(sBuilder.toString());
+        } catch (BinarioException e) {
+            e.printStackTrace();
+        }
+        return binario;
+    }
 }
 
 

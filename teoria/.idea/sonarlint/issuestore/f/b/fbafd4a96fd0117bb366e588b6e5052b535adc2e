@@ -1,24 +1,24 @@
 
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡´B8­´œù€.
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ïì§š
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ëŸ÷„8üÈ—ù€.
 R
 squid:S106"9Replace this use of System.out or System.err by a logger.(½§ò¦þÿÿÿÿ
-L
-squid:S106"9Replace this use of System.out or System.err by a logger.(¤• 
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(§‹’æ8üÈ—ù€.
 M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ôÌÏ´
-]squid:S3518"AMake sure "denominador" can't be zero before doing this division.(Í¢²8øñòø€.
-psquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×¼²
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(«“Œ´üÿÿÿÿ8…Ð„ù€.
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÑÍÒŸÿÿÿÿÿ
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ïì§š
 M
 squid:S106"9Replace this use of System.out or System.err by a logger.(öë¶·
 T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ëŸ÷„8üÈ—ù€.
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(«“Œ´üÿÿÿÿ8…Ð„ù€.
+T
 squid:S106"9Replace this use of System.out or System.err by a logger.(ª£Ã‰8¾×™ù€.
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡´B8­´œù€.
+]squid:S3518"AMake sure "denominador" can't be zero before doing this division.(Í¢²8øñòø€.
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÑÍÒŸÿÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ôÌÏ´
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(§‹’æ8üÈ—ù€.
+psquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×¼²
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(¤• 

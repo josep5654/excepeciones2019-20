@@ -1,0 +1,12 @@
+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÞÜ¾×ùÿÿÿÿ8Û–‹œƒ.
+1squid:S1220""Move this file to a named package.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(×ð“§ýÿÿÿÿ8´Õ„œƒ.
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¹¥Ü8¸…æ›ƒ.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñó8­†Ô›ƒ.
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ8†‘é›ƒ.
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†€éˆ8¶Ýè›ƒ.
+Vsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Û–‹œƒ.
